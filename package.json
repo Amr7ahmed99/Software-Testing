@@ -1,0 +1,23 @@
+{
+  "name": "software-testing",
+  "version": "1.0.0",
+  "description": "Applying software testing types in javascript using different tools.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amr7ahmed99/Software-Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amr7ahmed99/Software-Testing/issues"
+  },
+  "homepage": "https://github.com/Amr7ahmed99/Software-Testing#readme",
+  "devDependencies": {
+    "jest": "^29.6.1"
+  }
+}
