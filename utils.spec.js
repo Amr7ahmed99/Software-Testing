@@ -1,4 +1,4 @@
-const { sum, greeting } = require("./utils");
+const { sum, greeting, isEven, animals } = require("./utils");
 
 describe('UNIT_TESTING', ()=>{
     describe('sum', ()=>{
@@ -25,6 +25,34 @@ describe('UNIT_TESTING', ()=>{
     
         })
     });
+
+    describe('isEven', ()=>{
+        it('should return true for 6', ()=>{
+            expect(isEven(6)).toBeTruthy()
+        });
+
+        it('should return false for 7', ()=>{
+            expect(isEven(7)).toBeFalsy()
+        })
+    })
+
+    describe('validation', ()=>{
+        it('should return true for x is undefined', ()=>{
+            let x;
+            expect(x).toBeUndefined()
+        })
+
+        it('should return true for x is not null', ()=>{
+            let x= 1;
+            expect(x).not.toBeNull() 
+        })
+    })
+
+    describe('animals', ()=>{
+        it('should return true for cat', ()=>{
+            expect(animals).toContain('cat')
+        })
+    })
     
 });
 
