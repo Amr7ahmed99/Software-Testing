@@ -4,7 +4,7 @@
   "description": "Applying software testing types in javascript using different tools.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll"
   },
   "repository": {
     "type": "git",
